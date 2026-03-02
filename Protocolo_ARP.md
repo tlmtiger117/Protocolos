@@ -2,12 +2,12 @@
 # Protocolo ARP
 
   - Camada 2(enlace):Se refece a conexão(elance/amarração) entre 2 dispositivos.
-    - Isso permite o envio/recebiemnte de frames Ethernet(MAC de envio, destino, correção de error e payload).
-    - CRC(Check de Redundância Cíclica) reposnsavel por anailizar os esatdos dos pacotes(estado ruim ou não).
+    - Isso permite o envio/recebimento de frames Ethernet(MAC de envio, destino, correção de error e payload).
+    - CRC(Check de Redundância Cíclica) reposnsável por anailisar os estados dos pacotes(estado ruim ou não).
         
 
 - O que é: ARP(Address resolution procol) é um protocolo responsável por descobrir o endereço de fábrica de um dispositivo
-             atravez do seu endereço virtual(IP)
+             atravéz do seu endereço virtual(IP)
   
     
 - Como funciona: Quando um Dispositivo utilizando IP não sabe o MAC de um dispositivo da mesma rede ele:
@@ -17,8 +17,8 @@
    - 2° Se o dispositivo estiver na mesma rede, ele reponde de volta(unicast) pra quem perguntou:
         "ei, eu sou o ip 'x', esse é o meu MAC".
         
-   - 3° No lado de quem perguntou, o endereço MAC do dispositivo perguntado é adcionado a tabela arp
-        (tabela temporária que mostra os hosts que você se comunicou recentimente na rede LAN).
+   - 3° No lado de quem perguntou, o endereço MAC do dispositivo perguntado é adicionado a tabela arp
+        (tabela temporária que mostra os hosts que você se comunicou recentemente na rede LAN).
   
         
  - O que são Broadcast,unicast e ethernet:
@@ -38,7 +38,7 @@
     - payload(conteúdo do pacote)
     - CRC(Check de Redundância Cíclica), é um mecanismo de detecção e errors utilizado em pacotes em redes LAN.
              
-    - Assim, permitingo a comunicação e transferencia e recebiemnto de dados em redes LAN.
+    - Assim, permitindo a comunicação e transferência e recebiemento de dados em redes LAN.
 
 
 - Fluxo dessa comunicação:
@@ -49,8 +49,10 @@
 
      - H1:"perfeito, armazenando temporariamente seu MAC na minha tabela de conexões arp(comunicação entre hosts da mesma LAN"
 
-     - H1:"ok, já posso me comunicar internamente com esse host(pacotes ethetnet)"
+     - H1:"ok, já posso me comunicar internamente com esse host(pacotes ethernet)".
 
+- [!] Sempre use sniffer como "wireshark" para a analise real de pacotes. Isso muda muito sua visão de como as coisas realmente
+      funcionam na rede.
 
         
 
