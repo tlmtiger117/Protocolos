@@ -32,7 +32,7 @@
     - (não é somente em relação a ARP, mas em contextos gerais da rede também).
       
 
- - 3° Ethernet: É um tipo e pacote utilizado em redes LAN que inclui:
+ - 3° Ethernet: É um tipo de pacote utilizado em redes LAN que inclui:
     - MAC de origem
     - MAC de destino
     - payload(conteúdo do pacote)
