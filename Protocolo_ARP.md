@@ -54,6 +54,14 @@
 - [!] Sempre use sniffer como "wireshark" para a analise real de pacotes. Isso muda muito sua visão de como as coisas realmente
       funcionam na rede.
 
+- [Protocolo IP] -> link para meu estudo do protocolo IP:
+     - link: https://github.com/tlmtiger117/Protocolos/blob/main/Protocolo_IP.md
+ 
+
+
+
+
+
         
 
 
