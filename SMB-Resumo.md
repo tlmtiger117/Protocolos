@@ -15,9 +15,9 @@
 
    - via Linux: smbclient -L //IP_DO_PC -U usuário
   
-      -L: lista os arquivos e pastas existentes no host alvo(disk)
-      -U: usuário de login no SMB
-      -m SMB2(protocolo recente, o SMB1 usado naturalmente pelo SMB1 que já é ultrapassado)
+      - -L: lista os arquivos e pastas existentes no host alvo(disk)
+      - -U: usuário de login no SMB
+      - -m SMB2(protocolo recente, o SMB1 usado naturalmente pelo SMB1 que já é ultrapassado)
 
 - comandos:
 
