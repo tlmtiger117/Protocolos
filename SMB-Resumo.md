@@ -17,15 +17,15 @@
   
       - -L: lista os arquivos e pastas existentes no host alvo(disk)
       - -U: usuário de login no SMB
-      - -m SMB2(protocolo recente, o SMB1 usado naturalmente pelo SMB1 que já é ultrapassado)
+      - -m SMB2(protocolo recente, o SMB1 é usado naturalmente pelo SMB(NetBIOS) que já é ultrapassado)
 
 - comandos:
 
-    - cd > acessa pasta(funciona se for acessado via smbclient linux) se não, o Windows não tem um cd no SMB(especifica tudo no "\..\")
+    - cd > acessa pasta(funciona se for acessado via smbclient linux) se não, o Windows não tem um cd no SMB
+            (especificatudo no "\..\")
+      
     - ls > lista arquivos
     - get arquivo > baixa
- 
-      
     - put arquivo → envia
 
       
