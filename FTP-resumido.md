@@ -8,4 +8,4 @@
   
    - [!] não é cifrado igual ao ssh, por tanto, vulnerável a sniffers de rede (observador de tráfego de rede).
 
-- Sintaxe: ftp [ip]
+- Sintaxe: ftp ip
