@@ -6,3 +6,8 @@
 
    - Não é cifrado, vulnerável a sniffers.
    - ponto de acesse: porta 23.
+
+- o que testar:
+   - testar login direto(anonymous)
+   - sniff de credenciais (em labs às vezes já exposto)
+   - credenciais padrão (wordlist)
