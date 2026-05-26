@@ -46,4 +46,14 @@
       - DNS → Root → TLD → Autoritativo
       - DNS → devolve resposta pro PC
 
+- o que testar:
+   - subdomínios escondidos (dev, admin, test, internal)
+   - zone transfer mal configurado (AXFR)
+   - registros interessantes (TXT, SRV, MX)
+   - nomes internos de máquinas/serviços
+   - vazamento de IPs internos
+   - mapeamento de infraestrutura
+ 
+   - 
+
          
