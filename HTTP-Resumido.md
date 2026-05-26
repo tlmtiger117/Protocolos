@@ -15,3 +15,9 @@
 
 - como acessar:
    - sintaxe: http://<host/ip>:<porta>
+
+- o que testar:
+   - directory brute-force(pastas e arquivos)
+   - view-source / JS leaks (o backend da página(CTRL + U))
+   - login panel(testar senha padrõa do serviço)
+   - Sniffing
