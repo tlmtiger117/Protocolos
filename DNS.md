@@ -53,7 +53,5 @@
    - nomes internos de máquinas/serviços
    - vazamento de IPs internos
    - mapeamento de infraestrutura
- 
-   - 
 
          
