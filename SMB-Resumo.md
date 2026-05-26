@@ -27,5 +27,12 @@
     - ls > lista arquivos
     - get arquivo > baixa
     - put arquivo → envia
+ 
+- oque testar:
+  
+   - listar shares
+   - testar anonymous
+   - baixar tudo que parecer backup/config
+  
 
       
