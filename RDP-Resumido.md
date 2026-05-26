@@ -11,5 +11,10 @@
 
    - sintaxe: xfreerdp /v:192.168.0.10 /u:usuario
       - xfreerdp /v:192.168.0.10 /u:usuario /cert:ignore (não verifica o certificado (TLS) de criptografia)
+    
+- o que testar:
+   - brute-force leve
+   - reutilização de credenciais
+   - tentar Administrator
 
 
