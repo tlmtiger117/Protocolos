@@ -14,3 +14,10 @@
 - Sintaxe: ssh usuario@host
    - -p: especifica uma porta(se necessário)
 
+
+- o que testar:
+   - testar credenciais coletadas
+   - testar users comuns (wordlist)
+   - testar keys privadas
+
+
