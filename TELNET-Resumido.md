@@ -8,6 +8,6 @@
    - ponto de acesse: porta 23.
 
 - o que testar:
-   - testar login direto(anonymous)
+   - testar login direto
    - sniff de credenciais (em labs às vezes já exposto)
    - credenciais padrão (wordlist)
