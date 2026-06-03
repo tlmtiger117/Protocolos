@@ -42,7 +42,7 @@
 
    - C$: acesso administrativo ao disco C:.
    - ADMIN$: compartilhamento administrativo do Windows.
-   - IPC$: canal de comunicação SMB(protocolo utilizado).
+   - IPC$: canal de comunicação SMB(server e protocolo utilizado).
  
 - oque testar:
   
