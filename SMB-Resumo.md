@@ -28,6 +28,22 @@
     - get arquivo > baixa
     - put arquivo → envia
  
+
+- saída do comando smbcclient:
+  
+   - Disk:	Compartilhamento de arquivos e diretórios. Permite armazenar, listar, enviar
+     e baixar arquivos.
+  
+   - Printer:	Compartilhamento de impressora. Permite que clientes enviem trabalhos de                  impressão para uma impressora compartilhada na rede.
+  
+   - IPC	Inter-Process Communication: Compartilhamento especial usado pelo SMB para
+      comunicação, autenticação, administração remota e operações internas. Não serve
+      para  armazenar arquivos.
+
+   - C$: acesso administrativo ao disco C:.
+   - ADMIN$: compartilhamento administrativo do Windows.
+   - IPC$: canal de comunicação SMB(protocolo utilizado).
+ 
 - oque testar:
   
    - listar shares
