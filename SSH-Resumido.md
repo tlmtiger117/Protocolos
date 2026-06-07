@@ -13,6 +13,9 @@
 
 - Sintaxe: ssh usuario@host
    - -p: especifica uma porta(se necessário)
+   - -i: especifica uma chave privada(permite acessar sem precisar digitar senha).
+      - isso só é possível se o host alvo permitir. ele pode adcionar uma passfrase ou
+        simplemente pedir chave + senha + passfrase(depende doq ue o host quer).
 
 
 - o que testar:
