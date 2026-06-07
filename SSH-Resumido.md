@@ -19,5 +19,6 @@
    - testar credenciais coletadas
    - testar users comuns (wordlist)
    - testar keys privadas (ficam em .ssh) no diretório "/home/<user>"
+   - modos diferentes de cifra(as vezes é necessério trocar). "-o"
 
 
