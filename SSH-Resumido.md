@@ -18,6 +18,6 @@
 - o que testar:
    - testar credenciais coletadas
    - testar users comuns (wordlist)
-   - testar keys privadas
+   - testar keys privadas (ficam em .ssh) no diretório "/home/<user>"
 
 
